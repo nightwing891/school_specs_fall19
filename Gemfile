@@ -30,7 +30,7 @@ group :development, :test do
   gem 'pry'
   # RSpec Gem - Test Suite Runner
   gem 'rspec-rails'
-  gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
+  gem 'shoulda-matchers'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
   # REMEMBER: to add the coverage/ folder to your .gitignore - also wouldn't be a bad idea to add the .DS_Store file as well
